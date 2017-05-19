@@ -1,11 +1,11 @@
 name       : newsbeuter
 version    : 2.9
-release    : 3
+release    : 4
 source     :
     - http://www.newsbeuter.org/downloads/newsbeuter-2.9.tar.gz : 74a8bf019b09c3b270ba95adc29f2bbe48ea1f55cc0634276b21fcce1f043dc8
 homepage   : http://www.newsbeuter.org
 license    : MIT
-component  : network.util
+component  : network.news
 summary    : Text terminal based RSS reader
 description: |
     Open-source RSS/Atom feed reader for text terminals that runs on a variety of Unix-like operating systems. It features great configurability and a vast number of features for people who need a simple, fast reader that can completely be controlled via keyboard.
