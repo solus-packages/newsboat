@@ -27,8 +27,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2017-08-21</Date>
+        <Update release="7">
+            <Date>2017-09-17</Date>
             <Version>2.9</Version>
             <Comment>Packaging update</Comment>
             <Name>Peter O&apos;Connor</Name>
