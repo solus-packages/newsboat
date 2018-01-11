@@ -1,25 +1,25 @@
 name       : newsbeuter
-version    : 2.9
-release    : 7
+version    : 2.10.2
+release    : 8
 source     :
-    - http://www.newsbeuter.org/downloads/newsbeuter-2.9.tar.gz : 74a8bf019b09c3b270ba95adc29f2bbe48ea1f55cc0634276b21fcce1f043dc8
+    - https://newsboat.org/releases/2.10.2/newsboat-2.10.2.tar.xz : fda6b44f5c3a23ce46c85b40a6f4f0257c024d79bb8de325aa2cd73d43ef96f4
 homepage   : http://www.newsbeuter.org
 license    : MIT
 component  : network.news
-summary    : Text terminal based RSS reader
+summary    : Newsboat - text terminal based RSS reader
 description: |
     Open-source RSS/Atom feed reader for text terminals that runs on a variety of Unix-like operating systems. It features great configurability and a vast number of features for people who need a simple, fast reader that can completely be controlled via keyboard.
+    Newsboat is a fork of Newsbeuter, an RSS/Atom feed reader for the text console. The only difference is that Newsboat is actively maintained while Newsbeuter isn't.
 builddeps  :
     - pkgconfig(json-c)
     - pkgconfig(libcurl)
     - pkgconfig(sqlite3)
     - pkgconfig(stfl)
+    - asciidoc
 rundeps    :
     - stfl
 setup      : |
-    %patch  -p1 < $pkgfiles/segmentation-fault-on-podcasts-downloads.patch
-    %patch  -p1 < $pkgfiles/security/cve-2017-12904.patch
-    %patch  -p1 < $pkgfiles/Work-around-shell-code-in-podcast-names.patch
+    sed -i 's/\-Werror//g' Makefile
     ./config.sh
 build      : |
     %make prefix=/usr
