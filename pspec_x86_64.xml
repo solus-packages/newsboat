@@ -29,8 +29,8 @@ Newsboat is a fork of Newsbeuter, an RSS/Atom feed reader for the text console. 
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2018-01-07</Date>
+        <Update release="9">
+            <Date>2018-01-20</Date>
             <Version>2.10.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>

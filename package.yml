@@ -1,6 +1,6 @@
 name       : newsbeuter
 version    : 2.10.2
-release    : 8
+release    : 9
 source     :
     - https://newsboat.org/releases/2.10.2/newsboat-2.10.2.tar.xz : fda6b44f5c3a23ce46c85b40a6f4f0257c024d79bb8de325aa2cd73d43ef96f4
 homepage   : http://www.newsbeuter.org
@@ -25,3 +25,6 @@ build      : |
     %make prefix=/usr
 install    : |
     %make_install prefix=/usr
+check      : |
+    %make -j5 PROFILE=1 all test
+    (cd test && TMPDIR=/dev/shm ./test --order rand)
