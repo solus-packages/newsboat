@@ -1,9 +1,9 @@
 name       : newsbeuter
-version    : 2.11.1
-release    : 10
+version    : 2.12
+release    : 11
 source     :
-    - https://newsboat.org/releases/2.11.1/newsboat-2.11.1.tar.xz : aab67dcd386a3512812e1af0fddb8e1f4dce08d2a106946fe5ad405210ed37cf
-homepage   : http://www.newsbeuter.org
+    - https://newsboat.org/releases/2.12/newsboat-2.12.tar.xz : 9bbdbc2bca9e0c75a75588d89de3862f72e3fcb41c5d7db6210e2b491ffd43f4
+homepage   : https://newsboat.org/
 license    : MIT
 component  : network.news
 summary    : Newsboat - text terminal based RSS reader
@@ -22,9 +22,9 @@ setup      : |
     sed -i 's/\-Werror//g' Makefile
     ./config.sh
 build      : |
-    %make prefix=/usr
+    %make prefix=%PREFIX%
 install    : |
-    %make_install prefix=/usr
+    %make_install prefix=%PREFIX%
 check      : |
     %make -j5 PROFILE=1 all test
     (cd test && TMPDIR=/dev/shm ./test --order rand)

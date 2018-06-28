@@ -1,10 +1,10 @@
 <PISI>
     <Source>
         <Name>newsbeuter</Name>
-        <Homepage>http://www.newsbeuter.org</Homepage>
+        <Homepage>https://newsboat.org/</Homepage>
         <Packager>
-            <Name>Matt Critchlow</Name>
-            <Email>matt.critchlow@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.news</PartOf>
@@ -22,19 +22,42 @@ Newsboat is a fork of Newsbeuter, an RSS/Atom feed reader for the text console. 
 </Description>
         <PartOf>network.news</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/bin/newsboat</Path>
+            <Path fileType="executable">/usr/bin/podboat</Path>
+            <Path fileType="doc">/usr/share/doc/newsboat/docbook-xsl.css</Path>
+            <Path fileType="doc">/usr/share/doc/newsboat/examples/config</Path>
+            <Path fileType="doc">/usr/share/doc/newsboat/faq.html</Path>
+            <Path fileType="doc">/usr/share/doc/newsboat/newsboat.html</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es_ES/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/newsboat.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/newsboat.1</Path>
+            <Path fileType="man">/usr/share/man/man1/podboat.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2018-04-18</Date>
-            <Version>2.11.1</Version>
+        <Update release="11">
+            <Date>2018-06-28</Date>
+            <Version>2.12</Version>
             <Comment>Packaging update</Comment>
-            <Name>Matt Critchlow</Name>
-            <Email>matt.critchlow@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
