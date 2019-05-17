@@ -3,8 +3,8 @@
         <Name>newsbeuter</Name>
         <Homepage>https://newsboat.org/</Homepage>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.news</PartOf>
@@ -12,7 +12,7 @@
         <Description xml:lang="en">Open-source RSS/Atom feed reader for text terminals that runs on a variety of Unix-like operating systems. It features great configurability and a vast number of features for people who need a simple, fast reader that can completely be controlled via keyboard.
 Newsboat is a fork of Newsbeuter, an RSS/Atom feed reader for the text console. The only difference is that Newsboat is actively maintained while Newsbeuter isn&apos;t.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>newsbeuter</Name>
@@ -52,12 +52,12 @@ Newsboat is a fork of Newsbeuter, an RSS/Atom feed reader for the text console. 
         </Files>
     </Package>
     <History>
-        <Update release="13">
-            <Date>2018-12-23</Date>
-            <Version>2.13</Version>
+        <Update release="14">
+            <Date>2019-04-01</Date>
+            <Version>2.15</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
         </Update>
     </History>
 </PISI>

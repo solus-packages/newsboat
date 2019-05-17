@@ -1,10 +1,11 @@
 name       : newsbeuter
-version    : '2.13'
-release    : 13
+version    : '2.15'
+release    : 14
 source     :
-    - https://github.com/newsboat/newsboat/archive/r2.13.tar.gz : 3e3b30a03dda293b6187475ae300abe9fcdbf03b98e55ed8f1fe6a0ffa548508
+    - https://newsboat.org/releases/2.15/newsboat-2.15.tar.xz : da68ce93c02dda908a471ef8994bb3c668f060eb6046d486c3f05649c6650db7
 homepage   : https://newsboat.org/
 license    : MIT
+networking : yes
 component  : network.news
 summary    : Newsboat - text terminal based RSS reader
 description: |
@@ -16,6 +17,7 @@ builddeps  :
     - pkgconfig(sqlite3)
     - pkgconfig(stfl)
     - asciidoc
+    - cargo
 rundeps    :
     - stfl
 setup      : |
