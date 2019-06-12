@@ -1,8 +1,8 @@
 name       : newsbeuter
 version    : '2.15'
-release    : 14
+release    : 15
 source     :
-    - https://newsboat.org/releases/2.15/newsboat-2.15.tar.xz : da68ce93c02dda908a471ef8994bb3c668f060eb6046d486c3f05649c6650db7
+    - https://github.com/newsboat/newsboat/archive/r2.15.tar.gz : bfb76f7a6ea33b9a6b0327c827cb2d3d6de6de78800bc4b558b26bff3e36b51a
 homepage   : https://newsboat.org/
 license    : MIT
 networking : yes

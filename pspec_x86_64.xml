@@ -3,8 +3,8 @@
         <Name>newsbeuter</Name>
         <Homepage>https://newsboat.org/</Homepage>
         <Packager>
-            <Name>Justin Berthault</Name>
-            <Email>justin.berthault@zaclys.net</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.news</PartOf>
@@ -52,12 +52,12 @@ Newsboat is a fork of Newsbeuter, an RSS/Atom feed reader for the text console. 
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2019-04-01</Date>
+        <Update release="15">
+            <Date>2019-06-12</Date>
             <Version>2.15</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Berthault</Name>
-            <Email>justin.berthault@zaclys.net</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
